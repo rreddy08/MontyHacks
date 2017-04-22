@@ -6,6 +6,7 @@
     <link rel="stylesheet" href = "bootstrap/css/bootstrap.css">
     <link href="fa/css/font-awesome.css" rel="stylesheet">
 	 <script src="jquery-3.1.1.min.js"></script>  
+	 <script src = "bootstrap/js/bootstrap.min.js"></script>
   </head>
 
 <body id="home">
@@ -20,17 +21,10 @@
 			</h1>
 			<div class = "container">
 				<div class= "row">
-					<div class = "col-xs-6 col-sm-4" class= "modal fade" id= "aboutModalLabel">
-						<div class= "modal-content" role= "document">
-							<div class= "modal-header">
-								<h2>projects</h2>
-							</div>
-							<div class= "modal-body"></div>
-							<div class= "modal-footer">
-   								<button type="button" class= "btn btn-default" data-dismiss= "modal">Close</button>
-   							</div>
-						</div>
-					</div>
+					<button type="button" class= "btn btn-default" data-toggle="modal" data-target="#projectsModal">About</button>
+					<button type="button" class= "btn btn-default" data-toggle="modal" data-target="#connectModal">Connect</button>
+					<button type="button" class= "btn btn-default" data-toggle="modal" data-target="#rithvikModal">Projects</button>
+
 					<div class = "col-xs-6 col-sm-4" class= "modal fade" id= "aboutModalLabel">
 						<div class= "modal-content" role= "document">
 							<div class= "modal-header">
@@ -46,6 +40,20 @@
 					</div>
 					<div class = "col-xs-6 col-sm-4"> 
 						<h2>connect</h2>
+						<div id = "projectsModal" class = "modal fade">
+							<div class="modal-dialog" role="document">
+								<div class= "modal-content" role= "document">
+									<div class= "modal-header">
+									</div>
+								<div class= "modal-body">
+									
+								</div>
+								<div class= "modal-footer">
+   								<button type="button" class= "btn btn-default" data-dismiss= "modal">Close</button>
+   								</div>
+   							</div>
+						</div>
+					</div>
 					<div class= "modal fade" id= "aboutModalLabel">
 						<div class= "modal-content" role= "document">
 							<div class= "modal-header">
