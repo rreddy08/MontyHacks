@@ -11,6 +11,9 @@ html,body{
 	height: 100%;
 	width: 100%;
 }
+#Logo{
+	width: 100px;
+}
 .header{
 	position: relative;
 	display: table-cell;
@@ -19,4 +22,7 @@ html,body{
 }
 .header h1{
 	margin:0;
+}
+#space{
+	padding:1em !important;
 }
