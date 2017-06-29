@@ -51,12 +51,18 @@ i{
 button{
 	font-size: 2em !important;
 	font-family: 'Patua One', cursive !important;
-	border-top-color: white !important;
-	border-bottom-color: white !important;
-	border-left-color: black !important;
-	border-right-color: black !important;
+	border-top-color: black !important;
+	border-bottom-color: black !important;
+	border-left-color: white !important;
+	border-right-color: white !important;
+	background-color: black !important;
+	color: white !important;
 }
 #projectsModal{
 	background: url(http://www.dimin.net/software/panojs/images/progress.gif);
 	background-position: center;
+}
+#rithvikModal{
+	background-position: center;
+	background: url(https://www.frontline-consultancy.com/wp-content/uploads/Connect.gif);
 }
