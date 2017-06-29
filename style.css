@@ -5,17 +5,20 @@ html,body{
 }
 #home{
 	margin:0;
+	background-color: black;
 }
 .background{
 	display: table;
 	height: 100%;
 	width: 100%;
+	color: white;
 }
 .container{
 	padding-top: 3em;
 }
 #Logo{
 	width: 10em;
+	filter: invert(100%);
 }
 .header{
 	position: relative;
@@ -52,4 +55,8 @@ button{
 	border-bottom-color: white !important;
 	border-left-color: black !important;
 	border-right-color: black !important;
+}
+#projectsModal{
+	background: url(http://www.dimin.net/software/panojs/images/progress.gif);
+	background-position: center;
 }
