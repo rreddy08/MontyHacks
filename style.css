@@ -45,3 +45,11 @@ ul > li{
 i{
 	padding: 1em;
 }
+button{
+	font-size: 2em !important;
+	font-family: 'Patua One', cursive !important;
+	border-top-color: white !important;
+	border-bottom-color: white !important;
+	border-left-color: black !important;
+	border-right-color: black !important;
+}
